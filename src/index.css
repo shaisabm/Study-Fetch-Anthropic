@@ -1,0 +1,77 @@
+
+
+
+
+.topicContainer h1 {
+  text-align: center;
+}
+
+.topicContainer form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+}
+.inputs input{
+  max-width: 300px;
+  flex-direction: column;
+  
+
+}
+.topicContainer button {
+  width: 150px;
+}
+.viewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.explanation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  padding-top: 8px;
+
+}
+
+.explanationCatalogContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+
+
+}
+.eachCard {
+  background-color: white;
+  border-radius: 20px;
+}
+
+  body {
+    padding-bottom:  30px;
+  }
+
+
+  .topic-text {
+    text-align: center;
+    padding: 0;
+  }
+
+  .explanationText {
+    padding-left: 5px;
+  
+  }
