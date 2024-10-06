@@ -65,3 +65,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log(`Server running on port ${port}`);
   });
 }
+export default app;
