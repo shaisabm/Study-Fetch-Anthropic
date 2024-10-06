@@ -58,10 +58,5 @@ app.get('/api/explanations', async (req, res) => {
   }
 });
 
-// Only start the server if we're running directly (not as a module)
-if (import.meta.url === `file://${process.argv[1]}`) {
-  const port = process.env.PORT || 3000;
-  app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-  });
-}
+// Instead of starting the server conditionally, export the app
+export default app;
