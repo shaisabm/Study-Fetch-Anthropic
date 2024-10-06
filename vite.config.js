@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://study-fetch-anthropic.vercel.app:3000',
+        target: 'https://study-fetch-anthropic.vercel.app',
         changeOrigin: true,
         secure: false,
       }
