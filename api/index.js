@@ -4,9 +4,10 @@ import explainHandler from './explain.js';
 import explanationsHandler from './explanations.js';
 
 dotenv.config();
-
 const app = express();
 app.use(express.json());
+console.log(process.env.VITE_MONGODB_URI)
+
 
 app.post('/api/explain', async (req, res) => {
   try {

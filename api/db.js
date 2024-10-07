@@ -1,7 +1,7 @@
-import { MongoClient } from 'mongodb';
+import { MongoClient, ServerApiVersion} from 'mongodb';
 
-const mongoUri = process.env.MONGODB_URI;
-let client;
+const mongoUri =process.env.VITE_MONGODB_URI;
+console.log(process.env.VITE_MONGODB_URI)
 
 export async function connectToDatabase() {
   if (client && client.isConnected()) return client;
